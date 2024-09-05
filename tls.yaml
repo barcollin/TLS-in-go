@@ -1,0 +1,22 @@
+caCert:
+  serial: 1
+  validForYears: 10
+  subject: {
+    country: ZA
+    organization: Xa
+    organizationalUnit: Certificate Management
+    locality: JHB
+    commonName: CA Cerificate
+  }
+Certs:
+  go-demo.localtest.me
+    serial: 1
+    validForYears: 1
+    dnsNames: [go-demo.localtest.me]
+    subject: {
+      country: ZA
+      organization: Xa
+      organizationalUnit: go-demo department
+      locality: JHB
+      commonName: go-demo.localtest.me
+    }
